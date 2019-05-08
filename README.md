@@ -12,7 +12,7 @@ Takes less than 1 minute to check the /24 subnet due to the threading.
 1. This was written as a Visual Studio Console App (.NET Framework); open the project in Visual Studio and build to get your .exe
 2. Launch a shell as whatever user identity you want to check and run the .exe; can also be incorporated in pen test tools
 
-![Image](pic1.jpg)
+![Image](1.png)
 
 **note:** This tool is detectable if local use of wmic is monitored as well as /24 inter-host communications.
 
