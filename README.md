@@ -5,7 +5,7 @@ Simple tool written in C# as an independent side project. Uses threading to quic
 Takes less than 1 minute to check the /24 subnet due to the threading.
 
 **_How It Works:_**
-- checks hosts on the same /24 subnet with this wmic command: "wmic /node:<host> computersystem list brief /format:list"
+- checks hosts on the same /24 subnet with this wmic command: "wmic /node:[host] computersystem list brief /format:list"
 - Searches for successful execution of the command above based on the response
 
 **_Usage:_**
