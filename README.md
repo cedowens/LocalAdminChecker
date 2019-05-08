@@ -10,7 +10,7 @@ Takes less than 1 minute to check the /24 subnet due to the threading.
 
 **_Usage:_**
 1. This was written as a Visual Studio Console App (.NET Framework); open the project in Visual Studio and build to get your .exe
-2. Launch cmd.exe as whatever user identity you want to check and run the .exe; can also be incorporated in pen test tools and executed remotely.
+2. Launch cmd.exe as whatever user identity you want to check (ex: runas, pass the hash, etc.) and run the .exe to see what other hosts that user has local admin on within that /24 subnet; can also be incorporated in pen test tools and executed remotely.
 
 ![Image](Screenshot1.png)
 
