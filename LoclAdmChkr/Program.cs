@@ -54,7 +54,12 @@ namespace LocalAdminChecker
                     string z = Convert.ToString(y);
 
                     string host = first + "." + second + "." + third + "." + z;
-                    ipslist.Add(host);
+                    if (host != myIP)
+                    {
+                        ipslist.Add(host);
+                    }
+                    else { }
+                    
 
 
                 }
